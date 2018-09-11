@@ -1,11 +1,5 @@
-language: python
-sudo: required
-cache:
-- apt
-addons:
-  apt:
-    packages:
-    - ruby
-    - ruby-dev
+language: ruby	
+rvm:
+  - 2.2
 script:
-- ruby test.rb
+  - ./test.rb
