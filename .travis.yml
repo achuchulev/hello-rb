@@ -1,0 +1,11 @@
+language: python
+sudo: required
+cache:
+- apt
+addons:
+  apt:
+    packages:
+    - ruby
+    - ruby-dev
+script:
+- ruby test.rb
