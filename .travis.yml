@@ -1,0 +1,15 @@
+language: python
+sudo: required
+cache:
+- apt
+addons:
+  apt:
+    packages:
+    - ruby
+    - ruby-dev
+#install:
+#- sudo gem install bundler
+#- bundle install
+script:
+- ruby test.rb
+
